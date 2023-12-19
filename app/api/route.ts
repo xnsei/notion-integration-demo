@@ -1,7 +1,7 @@
 export const GET = async (req: Request, res: Response) => {
     const code = req.headers.get("code");
     const OAUTH_CLIENT_ID = "166dcda3-f0de-4629-807e-8ecd3f50778c";
-    const OAUTH_CLIENT_SECRET = "secret_yWzrc4FxBpMgtVwe4mmXIBjlRYkJ2tIrRjhC2KhPRa6";
+    const OAUTH_CLIENT_SECRET = "secret_POixhAyh7OgUSUKxrdtZAgZAay2M3p4pkQDO1QSByvg";
     const encoded = Buffer.from(`${OAUTH_CLIENT_ID}:${OAUTH_CLIENT_SECRET}`).toString("base64");
     const redirectUri = "http://localhost:3000/";
 
