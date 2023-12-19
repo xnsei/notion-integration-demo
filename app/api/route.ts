@@ -1,7 +1,7 @@
 export const GET = async (req: Request, res: Response) => {
     const code = req.headers.get("code");
-    const OAUTH_CLIENT_ID = "166dcda3-f0de-4629-807e-8ecd3f50778c";
-    const OAUTH_CLIENT_SECRET = "secret_POixhAyh7OgUSUKxrdtZAgZAay2M3p4pkQDO1QSByvg";
+    const OAUTH_CLIENT_ID = "44b02fd9-d231-4c3f-857f-04d5e5f9779c";
+    const OAUTH_CLIENT_SECRET = "secret_gysVyT5LFjJf7MVTXNuMiJeQVUHssBdpuq4lueNcwJ0";
     const encoded = Buffer.from(`${OAUTH_CLIENT_ID}:${OAUTH_CLIENT_SECRET}`).toString("base64");
     const redirectUri = "https://notion-integration-1.vercel.app/";
 

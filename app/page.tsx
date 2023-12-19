@@ -9,7 +9,7 @@ export default function Home() {
   const [name, setName] = useState("");
   const [email, setEmail] =  useState("");
 
-  const NOTION_AUTH_URL = "https://api.notion.com/v1/oauth/authorize?client_id=166dcda3-f0de-4629-807e-8ecd3f50778c&response_type=code&owner=user&redirect_uri=https%3A%2F%2Fnotion-integration-1.vercel.app%2F";
+  const NOTION_AUTH_URL = "https://api.notion.com/v1/oauth/authorize?client_id=44b02fd9-d231-4c3f-857f-04d5e5f9779c&response_type=code&owner=user&redirect_uri=https%3A%2F%2Fnotion-integration-1.vercel.app%2F";
 
   const params = useSearchParams();
 
